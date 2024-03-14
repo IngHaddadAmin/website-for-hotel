@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/css_bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">    
+    <title>Level</title>
+</head>
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/photme.jpg" alt="logo">
+            <h1 class="logo-text"> Level </h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto" >
+              <a class="level-nav-link nav-link active" aria-current="page" href="#srch">Home</a>
+              <a class="level-nav-link nav-link" href="#subs">Projects</a>
+              <a class="level-nav-link nav-link" href="#sld">Blog</a>
+              <a class="level-nav-link nav-link" href="#cntc">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- search rooms -->
+      <div id="srch" class="hero"> 
+        <div class="container">
+            <form action="index.html" method="get" class="search-form" >
+           <div class="form-group" style="flex:100%">
+            <i class="fa fa-map-marker"></i>
+            <input type="text" name="city" class="form-control" placeholder="type your destination..."></div>
+           <div class="form-group">
+            <i class="fa fa-calendar"></i>
+            <input type="text" class="form-control" id="inptchkin"  placeholder="chek in"></div>
+ 
+ <div class="form-group"><i class="fa fa-calendar"></i><input type="text" class="form-control" id="inptchkout" placeholder="chek out"></div>
+           <div class="form-group"><i class="fa fa-bed"></i>
+        <select class="form-control">
+            <option value="a"> Rooms</option>
+            <option value="a"> 1 </option>
+            <option value="a"> 2 </option>
+            <option value="a"> 3 </option>
+            <option value="a"> 4 </option>
+            <option value="a"> 5</option>
+            <option value="a"> 6</option>
+            <option value="a"> 7</option>
+            <option value="a"> 8</option>
+
+        </select>    
+        </div>
+           <div class="form-group"><i class="fa fa-user"></i>
+            <select class="form-control">
+                <option value="a"> Adults</option>
+                <option value="a"> 1 </option>
+                <option value="a"> 2 </option>
+                <option value="a"> 3 </option>
+                <option value="a"> 4 </option>
+                <option value="a"> 5</option>
+                <option value="a"> 6</option>
+                <option value="a"> 7</option>
+                <option value="a"> 8</option>
+    
+            </select>
+        </div>
+           <div class="form-group"><i class="fa fa-child"></i>
+            <select class="form-control">
+                <option value="a"> Children</option>
+                <option value="a"> 1 </option>
+                <option value="a"> 2 </option>
+                <option value="a"> 3 </option>
+                <option value="a"> 4 </option>
+                <option value="a"> 5</option>
+                <option value="a"> 6</option>
+                <option value="a"> 7</option>
+                <option value="a"> 8</option>
+    
+            </select>
+        </div>
+           <div class="form-group"><i></i>
+            <button type="submit" class="btn btn-primary"> Check</button>  
+        </div>
+       
+            </form>
+            <p class="help"> for any questions click here <a href="#"> Need help?</a></p>   
+    </div>
+      </div>
+    <!-- subscribe -->
+    <section id="subs" class="section-color">
+        <div class="container text-center">
+            <h1 class="section-tiltle"> Subscribe Now </h1>
+            <p class="section-para"> Click in the the Button below </p>
+            <a href="#"  class="btn btn-white"> subscribe Newletters </a>
+        </div>
+    </section>
+      <!-- services & plygn & artic service-->
+      <section>
+        <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="section-down-arrow">
+            <polygon fill="var(--color-prim)" points="0,0 100,0 50,50"> </polygon>
+      </svg>
+      <div class="container">
+      <div class="row">
+
+       <article class="article col-lg-4">
+        <i class="fa fa-graduation-cap article-icon"></i>
+        <h3 class="article-tittle">Course HTML Template by Tooplate website</h3>
+        <p>Practical lessons and scientific materials frontend developers</p>
+        <a href="#" class="btn btn-primary btn-widh">Continue Reading</a>
+       </article>
+
+       <article class="article col-lg-4">
+        <i class="fa fa-html5 article-icon"></i>
+        <h3 class="article-tittle"> Website Template step by step</h3>
+        <p>Creating professional and secure websites for individuals and companies</p>
+        <a href="#" class="btn btn-primary btn-widh">Continue Reading</a>
+       </article>
+
+       <article class="article col-lg-4">
+        <i class="fa fa-comment-o article-icon"></i>
+        <h3 class="article-tittle">Contact us if you have any question</h3>
+        <p>Contact us by clicking the button below</p>
+        <a href="#" class="btn btn-primary btn-widh">Continue Reading</a>
+       </article>  
+    
+      </div>
+      </div>
+      </section>
+<!-- Slider-->
+<section id="sld" class="section-gray"> 
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+
+    <div class="slider">
+    <article class="slide-article">
+        <img src="./assets/img/img-01.jpg " alt="">
+        <div class="slide-container">
+            <h3> Container HTML 5</h3>
+            <P> Lorem ipsum dolor, sit amet consectetur <br />
+                Is quiet now,<br />adipisicing elit. </P>
+            <a href="" class="btn btn-primary btn-widh">More Info</a>
+        </div>
+    </article>
+    <article class="slide-article">
+        <img src="./assets/img/img-02.jpg " alt="">
+        <div class="slide-container">
+            <h3>Java Script</h3>
+            <P>porro provident culpa aut eos omnis ipsum incidunt laborum. Labore, ratione? Molestias vel labore numquam esse.</P>
+            <a href="" class="btn btn-primary btn-widh">Details</a>
+        </div>
+    </article>
+    <article class="slide-article">
+        <img src="./assets/img/img-01.jpg " alt="">
+        <div class="slide-container">
+            <h3>Classes CSS</h3>
+            <P>Error explicabo similique <br> dolore molestiae quod </P>
+            <a href="" class="btn btn-primary btn-widh">Reading</a>
+        </div>
+    </article>
+    <article class="slide-article">
+        <img src="./assets/img/img-02.jpg " alt="">
+        <div class="slide-container">
+            <h3>Slider </h3>
+            <P> amet consectetur adipisicing elit.  Mollitia adipisci laboriosam voluptatum</P>
+            <a href="" class="btn btn-primary btn-widh">Reading</a>
+        </div>
+    </article>
+    <article class="slide-article">
+        <img src="./assets/img/img-01.jpg " alt="">
+        <div class="slide-container">
+            <h3>APIS</h3>
+            <P>Inventore officiis aut laudantium eos officia sit nisi eius.</P>
+            <a href="" class="btn btn-primary btn-widh">Details</a>
+        </div>
+    </article>
+    <article class="slide-article">
+        <img src="./assets/img/img-02.jpg " alt="">
+        <div class="slide-container">
+            <h3>Bootstrap</h3>
+            <P> quo consectetur dolore quaerat dolorem voluptates molestias sed facere?</P>
+            <a href="" class="btn btn-primary btn-widh">More Info</a>
+        </div>
+    </article>
+            </div>
+            </div>
+
+        <div class="col-lg-4">
+    <div class="sidebar">
+        <div class="sidebar-title">
+            <h3>Recommended Places</h3>
+            <p>Places that we recommend for you</p>
+        </div>
+        <div class="container-sidebar">
+            <a href="#">
+                <img src="./assets/img/tn-img-01.jpg" alt="">
+                <h4>Tunisia</h4>
+            </a>
+            <a href="#">
+                <img src="./assets/img/tn-img-02.jpg" alt="">
+                <h4>France</h4>
+            </a>
+            <a href="">
+                <img src="./assets/img/tn-img-03.jpg" alt="">
+                <h4>Belgique</h4>
+            </a>
+            <a href="">
+                <img src="./assets/img/tn-img-04.jpg" alt="">
+                <h4>Arabia Saudia</h4>
+            </a>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+    <!-- Video-->
+    <section class="video">
+        <div class="video-overlay">
+            <i class="fa fa-play-circle video-control-play"></i>
+            <i class="fa fa-pause-circle video-control-pause"></i>
+        </div>
+        <div class="video-container">
+            <video class="v-video">
+                <source src="./assets/videos/video.mp4" type="video/mp4">
+                <source src="./assets/videos/video.ogg" type="video/ogg">
+                your browser does not supported the video tag
+
+            </video>
+                
+            
+        </div>
+
+   </section>
+    <!-- contact-form-->
+
+   <section id="cntc">
+    <div class="container">
+        <div class="row"><div class="col lg-6">
+            <div class="map-c"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6784335.840648361!2d4.26942862856339!3d33.87254955097875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x125595448316a4e1%3A0x3a84333aaa019bef!2sTunisia!5e0!3m2!1sen!2stn!4v1699722331952!5m2!1sen!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+        
+        <div class="col lg-6">
+            <form action="" class="cont-form">
+                <div class="form-group">
+                    <input type="text" name="" id="" class="form-control" placeholder="name">
+                    <i class="fa fa-user"></i></div>
+                <div class="form-group"><input type="Email" name="" id="" class="form-control" placeholder="Email"> 
+                    <i class="fa fa-envelope"></i></div>
+                <div class="form-group"><input type="text" name="" id="" class="form-control" placeholder="subject">
+                    <i class="fa fa-book"></i></div>
+                <div class="form-group">
+                    <textarea type="text" name="" id="" class="form-control" placeholder="message" rows="8"></textarea>
+                    <i class="fa fa-commenting"></i></div>
+
+                    <button type="submit" class="btn btn-primary " >Send</button>
+
+            </form>
+        </div></div>
+</div>
+   </section>
+       <!-- footer-->
+
+   <div class="footer">
+    <div class="container">
+        <p> &copy;Powered by Amin HD & Nour H</p>
+    </div>
+   
+   </div>
+
+
+
+
+
+  <script src="./assets/js/js_bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+ <script src="./assets/js/jscript.js"></script>
+ 
+</body>
+</html>
